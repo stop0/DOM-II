@@ -50,10 +50,20 @@ window.addEventListener('resize', function(){
 
 
 
+const select = document.getElementsByClassName('btn');
+select[0].addEventListener('select', function logSelection (event){
+    console.log("You selected the btn")
+});
 
 
+/////////
 
 
+const card = document.getElementsByTagName('img');
+
+card[0].addEventListener('dblclick', function (e) {
+  card[0].style.width  = ('100px');
+});
 
 
 
@@ -64,7 +74,6 @@ window.addEventListener('resize', function(){
 
 /////////
 
-col[0].addEventListener("click", function(event){
+document.addEventListener("load", function(event){
     event.preventDefault()
   });
-  
