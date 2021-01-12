@@ -52,7 +52,7 @@ window.addEventListener('resize', function(){
 
 const select = document.getElementsByClassName('btn');
 select[0].addEventListener('select', function logSelection (event){
-    console.log("You selected the btn")
+  event.console.log("You selected the btn")
 });
 
 
